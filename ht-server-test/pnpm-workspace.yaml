@@ -1,7 +1,0 @@
-# pnpm v11+ 项目配置（单包项目也使用此文件）
-# node-xlsx 的 xlsx 子依赖来自 CDN tarball，用 overrides 强制走 npm 源
-overrides:
-  xlsx: "0.18.5"
-
-allowBuilds:
-  nodemon: true
